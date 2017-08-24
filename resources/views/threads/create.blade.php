@@ -18,13 +18,11 @@
                                 <select name="threads_id" id="threads_id" class="form-control">
                                     @foreach(App\Thread::all() as $thread)
 
-
                                             <option value="{{$thread->id}}">
 
                                                 {{$thread->title}}
 
                                             </option>
-
 
                                     @endforeach
                                 </select>
