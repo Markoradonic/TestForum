@@ -7,6 +7,10 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Forum Threads</div>
 
+
+
+
+
                     <div class="panel-body">
                         @foreach($threads as $thread)
                             <article>
